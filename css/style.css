@@ -1,0 +1,33 @@
+*{padding: 0;margin: 0;}
+.main{width: 800px;height: 500px;margin: 20px auto;position: relative;}
+/*棋盘*/
+#chess{border-radius: 10px;box-shadow: -2px -2px 2px #efefef,5px 5px 5px #b9b9b9;
+	margin-top: 25px;}
+/*控制*/
+.control{width: 300px;height: 430px;background: #A1F6B6;position: absolute;right: 0;
+	top: 25px;border-radius: 10px;color: #fff;padding: 10px;}
+/*标题*/
+.title{width: 280px;height: 120px;margin: 10px;background: #3C2F3D;
+	text-align: center;}
+.title strong{color: #F0F0F0;font-family: "微软雅黑";font-size: 60px;
+	line-height: 120px;}
+/*按钮*/	
+.btn{width: 280px;height: 280px;margin: 10px;background: #3C2F3D;color: #fff;}
+/*状态输出*/
+.message{width: 220px;height: 40px;background: #F0F0F0;border-radius: 5px;
+	color: #3C2F3D;margin: auto;position: relative;top: 20px;font-size: 32px;
+	font-family: "微软雅黑";padding: 10px;text-align: center;}
+/*背景选项*/
+.bg{position: relative;top: 30px;margin: auto;padding-left: 20px;}
+.bg_btn{width: 90px;height: 45px;background: #D65F5F;float: left;border-radius: 5px;
+	margin: 6px 15px;}
+#pic1{background: url(../img/1.jpg) no-repeat;background-size: 100% 100%;}
+#pic2{background: url(../img/2.jpg) no-repeat;background-size: cover;}
+#color{background: linear-gradient(#F00,#F60,#FF0,#0C0,#699,#06C,#909);}
+#white{background: #f0f0f0;}
+/*重来按钮*/
+.re{background: #fff;color: #000;width: 240px;height: 50px;margin: auto;
+	position: absolute;top: 360px;left: 40px;border-radius: 5px;font-size: 32px;
+	font-family: "微软雅黑";text-align: center;}
+.explain{font-size: 16px;font-family: "微软雅黑";text-align: left;margin: 15px;
+	border: 4px dotted #ccc;padding: 10px;}

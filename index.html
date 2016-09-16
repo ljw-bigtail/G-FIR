@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>五子棋</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="main">
+		<canvas id="chess" width="450px" height="450px"></canvas>
+		<div class="control">
+			<div class="title" id="title">
+				<strong>五子棋</strong>
+			</div>
+			<div class="btn"> 
+				<div class="message" id="message">
+					<strong>？？？？？</strong>
+				</div>
+
+				<div class="bg">
+					<div class="bg_btn" id="pic1"></div>
+					<div class="bg_btn" id="pic2"></div>
+					<div class="bg_btn" id="color"></div>
+					<div class="bg_btn" id="white"></div>
+				</div>
+
+				<div class="re" id="re">重来一局</div>
+			</div>	
+		</div>
+		<div class="explain">
+			<p>游戏说明：</p>
+			<p>&nbsp;&nbsp;游戏规则与五子棋一致。</p>
+			<p>&nbsp;&nbsp;游戏左边面板是棋盘，右边面板是控制台。</p>
+			<p>&nbsp;&nbsp;控制台的四个色块在游戏开局前可以控制棋盘颜色。</p>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/win.js"></script>
+	<script type="text/javascript" src="js/pc.js"></script>
+	<!-- <script type="text/javascript" src="js/people.js"></script> -->
+</body>
+</html>
